@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -93,13 +93,12 @@
 				TargetAttributes = {
 					F47F22701E9CEE1B0062FA8D = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = VMDN967Y6Z;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = F47F226C1E9CEE1B0062FA8D /* Build configuration list for PBXProject "cpp-testing" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -217,6 +216,7 @@
 		F47F22791E9CEE1C0062FA8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				DEVELOPMENT_TEAM = VMDN967Y6Z;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -225,6 +225,7 @@
 		F47F227A1E9CEE1C0062FA8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				DEVELOPMENT_TEAM = VMDN967Y6Z;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
